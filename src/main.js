@@ -1,11 +1,10 @@
-import "./style.css";
-
 import { renderAllBooks } from "./modules/render.js";
-import { addBook } from "./modules/bookForm.js";
-const addBookBtn = document.querySelector(".add-btn");
+import { displayForm } from "./modules/bookForm.js";
+const displayFormButtonEl = document.querySelector(".go-to-form");
 
-addBookBtn.addEventListener("click", () => {
-  addBook();
+// Event listener for the "Lägg till ny bok" button som tar fram formuläret för att lägga till en ny bok
+displayFormButtonEl.addEventListener("click", () => {
+  displayForm();
 });
 
 renderAllBooks();

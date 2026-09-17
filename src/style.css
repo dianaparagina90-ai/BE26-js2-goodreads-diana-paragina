@@ -23,8 +23,8 @@ h1{
   margin-bottom: 30px;
 }
 
-/* Lägg till-knapp */
-.add-btn {
+/* Knappen för att ta fram formuläret */
+.go-to-form {
   display: block;
   margin: 0 auto 40px;
 

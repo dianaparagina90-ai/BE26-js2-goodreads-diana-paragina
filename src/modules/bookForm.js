@@ -1,7 +1,8 @@
 import { postNewBook } from "./APIrequests.js";
 import { renderAllBooks } from "./render.js";
 
-export const addBook = () => {
+//Funktion som visar formuläret för att lägga till en ny bok
+export const displayForm = () => {
   const formWrapper = document.querySelector(".form-wrapper");
   const bookContainer = document.getElementById("books-container");
 
