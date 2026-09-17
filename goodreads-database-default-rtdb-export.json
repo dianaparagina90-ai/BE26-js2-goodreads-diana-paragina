@@ -1,0 +1,71 @@
+{
+  "books": {
+    "book1": {
+      "author": "George Orwell",
+      "imageUrl": "https://covers.openlibrary.org/b/id/7375382-M.jpg",
+      "isRead": true,
+      "score": 5,
+      "title": "1984"
+    },
+    "book10": {
+      "author": "Paulo Coelho",
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
+      "isRead": true,
+      "score": 4,
+      "title": "The Alchemist"
+    },
+    "book2": {
+      "author": "J.R.R. Tolkien",
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+      "isRead": true,
+      "score": 5,
+      "title": "The Hobbit"
+    },
+    "book3": {
+      "author": "J.K. Rowling",
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1598823299i/42844155.jpg",
+      "isRead": true,
+      "score": 4,
+      "title": "Harry Potter and the Philosopher's Stone"
+    },
+    "book4": {
+      "author": "F. Scott Fitzgerald",
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1650033243i/41733839.jpg",
+      "isRead": false,
+      "title": "The Great Gatsby"
+    },
+    "book5": {
+      "author": "Harper Lee",
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1612238791i/56916837.jpg",
+      "isRead": true,
+      "score": 5,
+      "title": "To Kill a Mockingbird"
+    },
+    "book6": {
+      "author": "Jane Austen",
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1681804503i/129915654.jpg",
+      "isRead": false,
+      "title": "Pride and Prejudice"
+    },
+    "book7": {
+      "author": "J.D. Salinger",
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1398034300i/5107.jpg",
+      "isRead": true,
+      "score": 3,
+      "title": "The Catcher in the Rye"
+    },
+    "book8": {
+      "author": "Aldous Huxley",
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1575509280i/5129.jpg",
+      "isRead": false,
+      "title": "Brave New World"
+    },
+    "book9": {
+      "author": "J.R.R. Tolkien",
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33.jpg",
+      "isRead": true,
+      "score": 5,
+      "title": "The Lord of the Rings"
+    }
+  }
+}
