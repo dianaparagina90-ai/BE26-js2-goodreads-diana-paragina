@@ -1,0 +1,351 @@
+/* Grundläggande styling */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f5f1e8;
+  color: #2f3a32;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+
+/* Header */
+h1{
+     text-align: center;
+  font-size: 42px;
+  color: #26352b;
+  margin-bottom: 30px;
+}
+
+/* Lägg till-knapp */
+.add-btn {
+  display: block;
+  margin: 0 auto 40px;
+
+  padding: 13px 24px;
+  border: none;
+  border-radius: 8px;
+
+  background-color: #3f5f4a;
+  color: white;
+
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #314c3a;
+  transform: translateY(-2px);
+}
+
+
+/* Böcker */
+
+#books-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+
+  max-width: 1200px;
+  margin: 0 auto 50px;
+}
+
+
+/* Bok-kort */
+
+.books-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+
+  gap: 10px;
+
+  padding: 25px 20px;
+
+  background-color: #fffdf8;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(47, 58, 50, 0.1);
+
+  transition: 0.2s ease;
+}
+
+.books-wrapper:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 8px 25px rgba(47, 58, 50, 0.16);
+}
+
+
+/* Bokbild */
+
+.books-wrapper img {
+  width: 140px;
+  height: 200px;
+
+  object-fit: cover;
+
+  border-radius: 5px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 8px;
+}
+
+
+/* Titel */
+
+.books-wrapper h3 {
+  font-size: 21px;
+  text-align: center;
+
+  color: #26352b;
+
+  margin-top: 5px;
+}
+
+
+/* Författare */
+
+.books-wrapper p {
+  font-family: Arial, sans-serif;
+
+  font-size: 14px;
+
+  color: #68736b;
+
+  text-align: center;
+}
+
+
+/* Status och betyg */
+
+.books-wrapper span {
+  font-family: Arial, sans-serif;
+
+  font-size: 14px;
+
+  color: #4e5c52;
+}
+
+.books-wrapper span:first-of-type {
+  font-weight: bold;
+}
+
+.score-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+
+/* Input för betyg */
+
+.books-wrapper input {
+  width: 100px;
+
+  padding: 8px;
+
+  border: 1px solid #c9cec9;
+  border-radius: 6px;
+
+  font-family: Arial, sans-serif;
+
+  text-align: center;
+
+  background-color: #faf9f5;
+}
+
+.books-wrapper input:focus {
+  outline: none;
+
+  border-color: #3f5f4a;
+
+  box-shadow: 0 0 0 2px rgba(63, 95, 74, 0.15);
+}
+
+
+/* Alla knappar på bokkort */
+
+.books-wrapper button {
+  width: 100%;
+
+  padding: 9px 12px;
+
+  border: none;
+  border-radius: 6px;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 13px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+
+/* Sätt betyg + markera läst */
+
+.books-wrapper button:not(:last-child) {
+  background-color: #3f5f4a;
+  color: white;
+}
+
+.books-wrapper button:not(:last-child):hover {
+  background-color: #314c3a;
+}
+
+
+/* Ta bort */
+
+.books-wrapper button:last-child {
+  background-color: #e8d8d3;
+  color: #7a4038;
+}
+
+.books-wrapper button:last-child:hover {
+  background-color: #dfc6bf;
+}
+
+
+/* Formulär */
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+
+  width: 350px;
+
+  padding: 30px;
+
+  background-color: #fffdf8;
+
+  border-radius: 12px;
+
+  box-shadow: 0 6px 25px rgba(47, 58, 50, 0.15);
+}
+
+.form::before {
+  content: "Lägg till en ny bok";
+
+  font-size: 24px;
+  font-weight: bold;
+
+  text-align: center;
+
+  color: #26352b;
+
+  margin-bottom: 5px;
+}
+
+
+/* Form inputs */
+
+.form input {
+  width: 100%;
+
+  padding: 12px;
+
+  border: 1px solid #c9cec9;
+
+  border-radius: 7px;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 14px;
+
+  background-color: #faf9f5;
+}
+
+.form input:focus {
+  outline: none;
+
+  border-color: #3f5f4a;
+
+  box-shadow: 0 0 0 2px rgba(63, 95, 74, 0.15);
+}
+
+
+/* Form-knappen */
+
+.form button {
+  padding: 12px;
+
+  border: none;
+  border-radius: 7px;
+
+  background-color: #3f5f4a;
+  color: white;
+
+  font-family: Arial, sans-serif;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #314c3a;
+}
+
+
+/* Responsiv design */
+
+@media (max-width: 1000px) {
+  #books-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  body {
+    padding: 25px;
+  }
+
+  #books-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 15px;
+  }
+
+  #books-container {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
