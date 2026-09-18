@@ -40,6 +40,10 @@ src/
 - DOM-manipulation
 - JavaScript Classes
 
+## Databas
+
+En **kopia av databasen är sparad lokalt i projektet som backup**, för att säkerställa att datan kan återskapas vid behov.
+
 ## Deployment
 
 Projektet är deployat med **Netlify**.
