@@ -48,4 +48,4 @@ En **kopia av databasen är sparad lokalt i projektet som backup**, för att sä
 
 Projektet är deployat med **Netlify**.
 
-Live:
+Live: https://be26-js2-goodreads-diana-paragina.netlify.app/ 
